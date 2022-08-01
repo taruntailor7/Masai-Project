@@ -1,0 +1,105 @@
+*{
+    margin:0px;
+}
+#container{
+    width: 100%;
+    margin: auto;
+    padding:20px 10px;
+    position:relative;
+    display:flex;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* border-top: 1px solid black; */
+}
+#container > div {
+    /* border-top: 1px solid teal; */
+    display: flex;
+    justify-content:space-around;
+}
+#container > :first-child{
+    width: 70%;
+}
+#container > :first-child > a {
+    width: 13%;
+}
+#container > :first-child > div{
+    display: flex;
+}
+#container > :first-child > div > i{
+    font-size:15px;
+    color:grey;
+    position:absolute;
+    left:250px;
+    top: 37px;
+}
+#container > :first-child > div > p{
+    font-size:15px;
+    color:grey;
+    font-family: sans-serif;
+    position:absolute;
+    left:270px;
+    top: 37px;
+}
+#container > :first-child > div > i:hover{
+    color:black;
+}
+#container > :first-child > div > p:hover{
+    color:black;
+}
+#container > :first-child > input{
+    border: 1px solid #ccc;
+    border-radius:30px;
+    width: 60%;
+    padding:15px;
+    font-family: sans-serif;
+    margin-left:120px;
+}
+#container > :first-child > i{
+    color:grey;
+    position:absolute;
+    right:510px;
+    top:37px;
+}
+#container > :first-child > i:hover{
+    color:#5DC6AD;
+}
+#container > :last-child{
+    /* border:1px solid red; */
+    width: 27%;
+}
+#container > :last-child > i{
+    font-size:15px;
+    color:grey;
+    margin-top: 15px;
+}
+#container > :last-child > p{
+    font-size:15px;
+    color:grey;
+    margin-top: 15px;
+    font-family: sans-serif;
+    margin-left: -25px;
+}
+#container > :last-child > button{
+    border: 1px solid #ccc;
+    border-radius:10px;
+    height:40px;
+    width:80px;
+    margin-top:3.5px;
+    background-color:#5DC6AD;
+    color:white;
+}
+#container > :last-child > i:hover{
+    color:black;
+}
+#container > :last-child > p:hover{
+    color:black;
+}
+.category{
+    display:flex;
+    justify-content:center;
+    border:1px solid #ccc;
+}
+.btn{
+    background-color:white;
+    margin-top: 8px;
+    color:grey;
+}
