@@ -19,7 +19,8 @@
     width: 70%;
 }
 #container > :first-child > a {
-    width: 13%;
+    width: 14%;
+    margin-top:0px;
 }
 #container > :first-child > div{
     display: flex;
@@ -29,7 +30,7 @@
     color:grey;
     position:absolute;
     left:250px;
-    top: 37px;
+    top: 39px;
 }
 #container > :first-child > div > p{
     font-size:15px;
