@@ -5,15 +5,49 @@ body{
   background-color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h1,h2{
+
+#scroll{
+    display: flex;
+    width: 50%;
+    margin-left: 560px;
+}
+h1{
+    text-align: center;
+}
+h2{
     text-align: center;
     margin-top: 30px;
 }
-p{
+.underline{
     text-align: center;
     margin-top: 10px;
     font-size: 18px;
     color: grey;
+}
+p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 35px;
+    color: black;
+    border-radius: 50%;
+    height: 40px;
+   
+}
+.line{
+    color: #43c6ac;
+}
+.upperhead{
+    background:#43c6ac;
+    padding: 10px;
+}
+.middlehead{
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    width: 40px;
+}
+.lowerhead{
+    border: 1px solid whitesmoke;
+    padding: 12px;
 }
 .img{
       margin-left: 610px;
