@@ -103,3 +103,224 @@
     margin-top: 8px;
     color:grey;
 }
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.imgs{
+    width: 95%;
+    margin: auto;
+    display:flex;
+    /* border: 1px solid green; */
+    justify-content: space-between;
+}
+.carou{
+    width: 65%;
+    margin-top: 20px;
+    /* border: 1px solid blue; */
+    position: relative;
+}
+.carousel-indicators{
+    position: absolute;
+    top:300px;
+}
+ol > li{
+    color: #5DC6AD;
+}
+.banners{
+    width: 33%;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    align-items:center
+}
+.banners img{
+    width: 100%;
+}
+.banners :nth-child(2){
+    margin-top:13px;
+}
+.banners :last-child{
+    margin-top: 13px;
+}
+/*Best Deal*/
+.bestDeals{
+    margin-top:50px;
+}
+#bestdeal {  
+    width:95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    margin-top:30px;
+}
+#bestdeal > div{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 5px;
+    position: relative;
+}
+h3, hr{
+    width: 95%;
+    margin: auto;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+#bestdeal > div > img{
+    width: 100%;
+    background-color:#F9F9F9;
+}
+#bestdeal > div >:nth-child(2){
+    margin-top:10px;
+    font-size:14px;
+    margin-left: 10px;
+}
+#bestdeal > div >:nth-child(3){
+    margin-top:15px;
+    font-size:11px;
+    margin-left: 10px;
+}
+#bestdeal > div >:nth-child(4){
+    margin-top:-5px;
+    font-size:15px;
+    margin-left: 10px;
+}
+#bestdeal > div > button{
+    border:1px solid #5DC6AD;;
+    border-radius:15px;
+    width:25%;
+    margin-left: 190px;
+    position: absolute;
+    bottom: 10px;
+    color:#5DC6AD;
+    background-color:white;
+}
+#bestdeal > div > button:hover{
+    background-color: #5DC6AD;
+    color:white;
+}
+#bestdeal > div:hover{
+    transition: all ease-out 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+/* Fruites and Vegetables Section*/
+.FandV{
+    width:50%;
+    display:flex;
+    margin: auto;
+    margin-top:50px;
+}
+.FandV > a > img{
+    width:80%;
+    margin-top:50px;
+}
+
+/* Fruits Section */
+.fruSection{
+    margin-top:50px;
+}
+#fruits {  
+    width:95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    margin-top:30px;
+}
+#fruits > div{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 5px;
+    position: relative;
+}
+#fruits > div > img{
+    width: 100%;
+    background-color:#F9F9F9;
+}
+#fruits > div >:nth-child(2){
+    margin-top:10px;
+    font-size:14px;
+    margin-left: 10px;
+}
+#fruits > div >:nth-child(3){
+    margin-top:15px;
+    font-size:11px;
+    margin-left: 10px;
+}
+#fruits > div >:nth-child(4){
+    margin-top:-5px;
+    font-size:15px;
+    margin-left: 10px;
+}
+#fruits > div > button{
+    border:1px solid #5DC6AD;;
+    border-radius:15px;
+    width:25%;
+    margin-left: 190px;
+    position: absolute;
+    bottom: 10px;
+    color:#5DC6AD;
+    background-color:white;
+}
+#fruits > div > button:hover{
+    background-color: #5DC6AD;
+    color:white;
+}
+#fruits > div:hover{
+    transition: all ease-out 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+/* Vegetables Section */
+.vegeSection{
+    margin-top:50px;
+}
+#vegetables{
+    width:95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    margin-top:30px;
+}
+#vegetables > div{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 5px;
+    position: relative;
+}
+#vegetables > div:hover{
+    opacity: 1;
+}
+#vegetables > div > img{
+    width: 100%;
+    background-color:#F9F9F9;
+}
+#vegetables > div >:nth-child(2){
+    margin-top:10px;
+    font-size:14px;
+    margin-left: 10px;
+}
+#vegetables > div >:nth-child(3){
+    margin-top:15px;
+    font-size:11px;
+    margin-left: 10px;
+}
+#vegetables > div >:nth-child(4){
+    margin-top:-5px;
+    font-size:15px;
+    margin-left: 10px;
+}
+#vegetables > div > button{
+    border:1px solid #5DC6AD;;
+    border-radius:15px;
+    width:25%;
+    margin-left: 190px;
+    position: absolute;
+    bottom: 10px;
+    color:#5DC6AD;
+    background-color:white;
+}
+#vegetables > div > button:hover{
+    background-color: #5DC6AD;
+    color:white;
+}
+#vegetables > div:hover{
+    transition: all ease-out 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}

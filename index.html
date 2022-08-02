@@ -41,27 +41,101 @@
     <section>
         <div class="category">
             <div class="dropdown">
-                <button class="btn dropdown-toggle"  data-toggle="dropdown" id="fruits">Fruits
+                <button class="btn dropdown-toggle"  data-toggle="dropdown">Fruits
                 <span class="caret"></span></button>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Exotic Fruits</a></li>
-                  <li><a href="#">Fresh Fruits</a></li>
-                  <li><a href="#">Fruits Combos</a></li>
+                <ul class="dropdown-menu dropdown-content">
+                  <li><a href="#fruSection">Exotic Fruits</a></li>
+                  <li><a href="#fruSection">Fresh Fruits</a></li>
+                  <li><a href="#fruSection">Fruits Combos</a></li>
                 </ul>
             </div>
             <div class="dropdown">
-                <button class="btn dropdown-toggle"  data-toggle="dropdown" id="vegetables">Vegetables
+                <button class="btn dropdown-toggle"  data-toggle="dropdown">Vegetables
                 <span class="caret"></span></button>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Daily Veggies</a></li>
-                  <li><a href="#">Hearbs & Leafies</a></li>
-                  <li><a href="#">Exotic Vegetables</a></li>
-                  <li><a href="#">Cuts, Peeled & Sprouts</a></li>
-                  <li><a href="#">Vegetables Combos</a></li>
+                <ul class="dropdown-menu dropdown-content">
+                  <li><a href="#vegeSection">Daily Veggies</a></li>
+                  <li><a href="#vegeSection">Hearbs & Leafies</a></li>
+                  <li><a href="#vegeSection">Exotic Vegetables</a></li>
+                  <li><a href="#vegeSection">Cuts, Peeled & Sprouts</a></li>
+                  <li><a href="#vegeSection">Vegetables Combos</a></li>
                 </ul>
             </div>
         </div>
-    </section>  
+    </section>
+    <!-- Images Section -->
+    <section>
+        <div class="imgs">
+            <div class="carou">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                  
+                    <!-- Wrapper for slides -->
+                    <div id="carousel" class="carousel-inner">
+                      <div class="item active">
+                        <img src="https://imageprod.fraazo.com/fraazo-prod/web_ban/5608.png">
+                      </div>
+                      <!-- Append here -->
+                    </div>
+                    <!-- Left and right controls -->
+                    <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a> -->
+                </div>
+            </div>
+            <div class="banners">
+                <img src="https://webasset.fraazo.com/production/Web1.ab035db9ab9fe7b21326.png" alt="1">
+                <img src="https://webasset.fraazo.com/production/Web2.3f0b675c24dcb702b13d.png" alt="2">
+                <img src="https://webasset.fraazo.com/production/Web3.e2495d9eb26022ba0363.png" alt="3">
+            </div>
+        </div>
+    </section>
+    <!-- BEST DEALS Section -->
+    <section>
+        <div class="bestDeals">
+            <h3>BEST DEALS</h3>
+            <hr>
+            <div id="bestdeal">
+                <!-- Append here -->
+                <!--  div image p p h4 are here -->
+            </div>
+        </div>
+    </section>
+    <!-- Fruites and Vegetables -->
+    <section>
+        <div class="FandV">
+            <a href="#fruSection"><img src="https://imagemaster.fraazo.com/fraazo-master/webban/Fruits.png" alt="fruit"></a>
+            <a href="#vegeSection"><img src="https://imagemaster.fraazo.com/fraazo-master/webban/Vegetables.png" alt="vegetable"></a>
+        </div>
+    </section>
+    <!-- Fruites Section -->
+    <section>
+        <div class="fruSection" id="fruSection">
+            <h3>FRUITS</h3>
+            <hr>
+            <div id="fruits">
+                <!-- Append here -->
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="vegeSection" id="vegeSection">
+            <h3>VEGETABLES</h3>
+            <hr>
+            <div id="vegetables">
+                <!-- Append here -->
+            </div>
+        </div>
+    </section>
 </body>
 </html>
 <script src="index.js"></script>
