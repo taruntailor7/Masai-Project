@@ -69,3 +69,48 @@ button{
     cursor: pointer;
 }
 
+/* cart section */
+
+div{
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 5px;
+    position: relative;
+}
+div > img{
+    width: 100%;
+    background-color:#F9F9F9;
+}
+div >:nth-child(2){
+    margin-top:10px;
+    font-size:14px;
+    margin-left: 10px;
+}
+div >:nth-child(3){
+    margin-top:15px;
+    font-size:11px;
+    margin-left: 10px;
+}
+div >:nth-child(4){
+    margin-top:-5px;
+    font-size:15px;
+    margin-left: 10px;
+}
+div > button{
+    border:1px solid #5DC6AD;;
+    border-radius:15px;
+    width:25%;
+    margin-left: 190px;
+    position: absolute;
+    bottom: 10px;
+    color:#5DC6AD;
+    background-color:white;
+}
+div > button:hover{
+    background-color: #5DC6AD;
+    color:white;
+}
+div:hover{
+    transition: all ease-out 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
