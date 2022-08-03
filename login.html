@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="login.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMHTwpbzASi_vYUW2wYr-qNjA1_WWsy4uqGw&usqp=CAU"
+          alt="fraazo"
+          class="fr"
+        />
+
+        
+        <h1>Sign in</h1>
+        <form onsubmit="login(event)">
+          <div class="input-gr">
+            <label>Mobile</label>
+            <input
+              type="mobile"
+              id="mobile"
+              placeholder="Enter Your Mobile Number"
+              required
+            />
+          </div>
+          <div class="input-gr">
+            <label>E-mail</label>
+            <input
+              type="email"
+              id="mail"
+              placeholder="Enter Your Mail"
+              required
+            />
+          </div>
+
+          <div class="input-gr">
+            <label>Password</label>
+            <input
+              type="password "
+              id="password"
+              placeholder="Enter Your Password"
+              required
+            />
+            <button type="submit" class="submit">Submit</button>
+          </div>
+          <p>Forget Password</p>
+        </form>
+      </div>
     
-</body>
+    </div>
+    <img class="Image" src="https://globalprimenews.com/wp-content/uploads/2020/05/banner.3006cc04.png" alt="Image">
+  </body>
 </html>
-<script src="login.js"></script>
+<script src="./login.js"></script>
