@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="signup.css" />
   </head>
   <body>
@@ -18,7 +18,7 @@
         <h1>Welcome to Fraazo!</h1>
         <h3>Sign Up to get Started</h3>
         <hr />
-        <form>
+        <form onsubmit="signup(event)">
           <div class="input-gr">
             <label>Username</label>
             <input
@@ -31,7 +31,7 @@
           <div class="input-gr">
             <label>Email</label>
             <input
-              type="email "
+              type="text"
               id="mail"
               placeholder="Enter Your Mail ID"
               required
@@ -49,8 +49,10 @@
             <button type="submit" class="sub">Register</button>
           </div>
         </form>
+
         <p>Already have an account? <a href="login.html"> Sign In </a></p>
       </div>
     </div>
   </body>
 </html>
+<script src="./signup.js"></script>
