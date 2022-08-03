@@ -62,7 +62,7 @@ function displayEmptyProduct(){
 }
 function displayProduct(){
     document.getElementById("empty").style.display = "none";
-    // document.getElementById("cart").innerText="";
+    // document.getElementById("cart").innerHTML="";
     cartProduct.map(function(element, index){
         var div = document.createElement("div");
 
