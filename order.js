@@ -13,6 +13,7 @@ var loggedInUser = JSON.parse(localStorage.getItem("userName")) || [];
 console.log(loggedInUser);
 
 document.getElementById("user").innerText =loggedInUser[0].name;
+document.getElementById("greet").innerText ="Thanks "+loggedInUser[0].name;
 
 // document.querySelector('#cart > h1').innerText = "Cart items:" + cartProduct.length;
 document.getElementById('items').innerText =cartProduct.length+" items";

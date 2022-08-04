@@ -85,7 +85,13 @@
     p{
       font-size: 19px;
       font-weight: 300;
-      margin-left: 210px;
+      margin-left: 10px;
+    }
+    p>a{
+      text-decoration: none;
+      font-weight: 700;
+      color: #5dc6ad;
+      font-size: 20px;
     }
     .fr {
       height: 80px;

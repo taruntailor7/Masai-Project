@@ -90,7 +90,7 @@ header{
     color:grey;
     margin-top: 15px;
     font-family: sans-serif;
-    margin-left: -25px;
+    margin-left: -40px;
 }
 a>i{
     color:grey;
@@ -105,7 +105,7 @@ a>i:hover{
 #container > :last-child > p > a:hover{
     color: black;
 }
-#container > :last-child > button{
+/* #container > :last-child > button{
     border: 1px solid #ccc;
     border-radius:10px;
     height:40px;
@@ -113,7 +113,7 @@ a>i:hover{
     margin-top:3.5px;
     background-color:#5DC6AD;
     color:white;
-}
+} */
 #container > :last-child > i:hover{
     color:black;
 }
@@ -125,13 +125,9 @@ a>i:hover{
     padding:2px 5px 1px 5px;
     border-radius:50%;
     position:absolute;
-    left:50px;
+    left:74px;
     top:-11px;
 }
-#userlogo{
-    display:none;
-}
-
 /* Category Section */
 .category{
     margin-top: 90px;

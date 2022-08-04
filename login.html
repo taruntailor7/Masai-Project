@@ -10,9 +10,9 @@
   <body>
     <div class="container">
       <div class="form">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMHTwpbzASi_vYUW2wYr-qNjA1_WWsy4uqGw&usqp=CAU" alt="fraazo" class="fr"/>
+        <a href="index.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMHTwpbzASi_vYUW2wYr-qNjA1_WWsy4uqGw&usqp=CAU" alt="fraazo" class="fr"/></a>
         <h1>Sign In</h1>
-        <form>
+        <form onsubmit="login(event)">
           <div class="input">
             <label>Email</label>
             <input type="email" id="email" placeholder="Enter Your Email Address" required>
@@ -23,10 +23,10 @@
             <input type="password" id="pass" placeholder="Enter your password" required/>
             <button type="submit" class="submit">Sign In</button>
           </div>
-          <p>Forget Password</p>
+          <!-- <p>Forget Password</p> -->
+          <p>Don't have an account ? <a href="signup.html">SignUp</a></p>
         </form>
       </div>
-    
     </div>
     <img class="Image" src="https://globalprimenews.com/wp-content/uploads/2020/05/banner.3006cc04.png" alt="Image">
   </body>

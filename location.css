@@ -76,20 +76,20 @@ header{
     /* border:1px solid red; */
     width: 27%;
 }
-#container > :last-child > i,a{
+#container > :last-child > a{
     font-size:15px;
     color:grey;
     margin-top: 15px;
 }
-#container > :last-child > i{
+/* #container > :last-child > i{
     margin-top: 17px;
-}
+} */
 #container > :last-child > p{
     font-size:15px;
     color:grey;
     margin-top: 15px;
     font-family: sans-serif;
-    margin-left: -25px;
+    margin-left: -40px;
 }
 a>i{
     color:grey;
@@ -104,7 +104,7 @@ a>i:hover{
 #container > :last-child > p > a:hover{
     color: black;
 }
-#container > :last-child > button{
+/* #container > :last-child > button{
     border: 1px solid #ccc;
     border-radius:10px;
     height:40px;
@@ -112,7 +112,7 @@ a>i:hover{
     margin-top:3.5px;
     background-color:#5DC6AD;
     color:white;
-}
+} */
 #container > :last-child > i:hover{
     color:black;
 }
@@ -253,19 +253,48 @@ a>i:hover{
     padding:0px 20px 20px 20px;
     margin-top:20px;
     border-radius: 5px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 #cart>h1{
     font-size: 25px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+/* #cart > div{
+    display:flex;
+    justify-content:space-between;
+}
+#cart>div>div{
+    width:50%;
+}
+#cart>div>:last-child{
+    width:40%;
+    border:2px solid #5DC6AD;
+} */
+#cart input{
+    width:100%;
+    padding:20px;
+    border:2px solid #5DC6AD;
+    outline:none;
+    border-radius:5px;
+    margin-top:20px;
+}
+#cart>div>div{
+    width:100%;
+    margin-top:100px;
+    text-align:center;
+}
+#cart>div>div>i{
+    font-size: 100px;
+    color:#5DC6AD;
+}
 #cart>div{
     width:100%;
     /* border:1px solid red; */
-    display: flex;
+    /* display: flex; */
     /* justify-content:space-between; */
     margin-top: 10px;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
 }
 #cart>div>img{
     width: 20%;
