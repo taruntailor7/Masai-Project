@@ -9,50 +9,33 @@
   </head>
   <body>
     <div class="container">
-      <div class="form-box">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMHTwpbzASi_vYUW2wYr-qNjA1_WWsy4uqGw&usqp=CAU"
-          alt="fraazo"
-          class="fr"
-        />
-        <h1>Welcome to Fraazo!</h1>
-        <h3>Sign Up to get Started</h3>
-        <hr />
-        <form onsubmit="signup(event)">
-          <div class="input-gr">
+      <div class="form">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMHTwpbzASi_vYUW2wYr-qNjA1_WWsy4uqGw&usqp=CAU" alt="fraazo" class="fr"/>
+        <h1>Create an Account</h1>
+        <form>
+          <div class="input">
             <label>Username</label>
-            <input
-              type="text "
-              id="name"
-              placeholder="Enter Your Name"
-              required
-            />
+            <input type="text" id="name" placeholder="Enter your name" required>
           </div>
-          <div class="input-gr">
+          <div class="input">
+            <label>Mobile</label>
+            <input type="tel" id="mobile" placeholder="Enter your Mobile Number" required>
+          </div>
+          <div class="input">
             <label>Email</label>
-            <input
-              type="text"
-              id="mail"
-              placeholder="Enter Your Mail ID"
-              required
-            />
+            <input type="email" id="email" placeholder="Enter Your Email Address" required>
           </div>
 
-          <div class="input-gr">
+          <div class="input">
             <label>Password</label>
-            <input
-              type="password "
-              id="password"
-              placeholder="Enter Your Password"
-              required
-            />
+            <input type="password" id="pass" placeholder="Enter your password" required/>
             <button type="submit" class="sub">Register</button>
           </div>
         </form>
-
-        <p>Already have an account? <a href="login.html"> Sign In </a></p>
+        <p>Already have an account ? <a href="login.html"> Login</a></p>
       </div>
     </div>
+    <img class="Image" src="https://globalprimenews.com/wp-content/uploads/2020/05/banner.3006cc04.png" alt="Image">
   </body>
 </html>
 <script src="./signup.js"></script>

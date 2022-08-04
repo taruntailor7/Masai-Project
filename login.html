@@ -9,39 +9,26 @@
   </head>
   <body>
     <div class="container">
-      <div class="form-box">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMHTwpbzASi_vYUW2wYr-qNjA1_WWsy4uqGw&usqp=CAU"
-          alt="fraazo"
-          class="fr"
-        />
-
-        <h2>Log In</h2>
-        <hr />
-        <form onsubmit="login(event)">
-          <div class="input-gr">
-            <label>E-mail</label>
-            <input
-              type="email"
-              id="mail"
-              placeholder="Enter Your Mail"
-              required
-            />
+      <div class="form">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMHTwpbzASi_vYUW2wYr-qNjA1_WWsy4uqGw&usqp=CAU" alt="fraazo" class="fr"/>
+        <h1>Sign In</h1>
+        <form>
+          <div class="input">
+            <label>Email</label>
+            <input type="email" id="email" placeholder="Enter Your Email Address" required>
           </div>
 
-          <div class="input-gr">
+          <div class="input">
             <label>Password</label>
-            <input
-              type="password "
-              id="password"
-              placeholder="Enter Your Password"
-              required
-            />
-            <button type="submit" class="submit">Submit</button>
+            <input type="password" id="pass" placeholder="Enter your password" required/>
+            <button type="submit" class="submit">Sign In</button>
           </div>
+          <p>Forget Password</p>
         </form>
       </div>
+    
     </div>
+    <img class="Image" src="https://globalprimenews.com/wp-content/uploads/2020/05/banner.3006cc04.png" alt="Image">
   </body>
 </html>
 <script src="./login.js"></script>

@@ -1,19 +1,22 @@
-var arr = JSON.parse(localStorage.getItem("signup")) || [];
-function login(event) {
+var users = JSON.parse(localStorage.getItem("user")) || [];
+
+function login() {
   event.preventDefault();
-  var email = document.getElementById("mail").value;
-  var password = document.getElementById("password").value;
+  var email = document.getElementById("email").value;
+  var password = document.getElementById("pass").value;
 
   var flag = false;
-  for (var i = 0; i < arr.length; i++) {
-    if (arr[i].email === email && arr[i].password === password) {
+  for (var i = 0; i < users.length; i++) {
+    if (users[i].email === email && users[i].password === password) {
       flag = true;
       break;
     }
   }
-  if (flag) {
+  if(flag){
     alert("Login Successfull");
-  } else {
-    alert("Please Enter Correct Email and Password");
+    window.location.href ="./homepage.html";
+  } 
+  else{
+    alert("Wrong Credentials");
   }
 }
