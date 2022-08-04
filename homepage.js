@@ -5,6 +5,7 @@ var fruits = [
         name: "Indian Avocado",
         quantity: "1 pc",
         price: "89",
+        piec:1,
     },
     {
         id: '2',
@@ -12,6 +13,7 @@ var fruits = [
         name: "Robusta Bnana",
         quantity: "1 Kg",
         price: "47",
+        piec:1,
     },
     {
         id: '3',
@@ -19,6 +21,7 @@ var fruits = [
         name: "Raw Papaya",
         quantity: "1 pc",
         price: "32",
+        piec:1,
     },
     {
         id: '4',
@@ -26,6 +29,7 @@ var fruits = [
         name: "pineapple",
         quantity: "1 pc",
         price: "62",
+        piec:1,
     },
     {
         id: '5',
@@ -33,6 +37,7 @@ var fruits = [
         name: "Pomegranate (Anar)",
         quantity: "1 kg",
         price: "120",
+        piec:1,
     },
     // {
     //     id: '6',
@@ -78,6 +83,7 @@ var vegetables = [
         name: "Tomato",
         quantity: "1 kg",
         price: "35",
+        piec:1,
     },
     {
         id: '2',
@@ -85,6 +91,7 @@ var vegetables = [
         name: "Arbi",
         quantity: "500 g",
         price: "37",
+        piec:1,
     },
     {
         id: '3',
@@ -92,6 +99,7 @@ var vegetables = [
         name: "Bnana Stem",
         quantity: "1 pc",
         price: "41",
+        piec:1,
     },
     {
         id: '4',
@@ -99,6 +107,7 @@ var vegetables = [
         name: "Onion",
         quantity: "1 kg",
         price: "26",
+        piec:1,
     },
     {
         id: '5',
@@ -106,6 +115,7 @@ var vegetables = [
         name: "Potato",
         quantity: "1 kg",
         price: "25",
+        piec:1,
     },
     // {
     //     id: '6',
@@ -151,6 +161,7 @@ var bestdeal = [
         name: "Coconut Combo (2 pcs Coconuts)",
         quantity: "1 combo",
         price: "60",
+        piec:1,
     },
     {
         id: '2',
@@ -158,6 +169,7 @@ var bestdeal = [
         name: "Cabbage",
         quantity: "1 pc",
         price: "41",
+        piec:1,
     },
     {
         id: '3',
@@ -165,6 +177,7 @@ var bestdeal = [
         name: "Raw Papaya",
         quantity: "1 pc",
         price: "32",
+        piec:1,
     },
     {
         id: '4',
@@ -172,6 +185,7 @@ var bestdeal = [
         name: "Black Nagpur Brinjal",
         quantity: "250 g",
         price: "40",
+        piec:1,
     },
     {
         id: '5',
@@ -179,6 +193,7 @@ var bestdeal = [
         name: "Green Capsicum",
         quantity: "250 g",
         price: "32",
+        piec:1,
     },
 ];
 
@@ -195,31 +210,10 @@ var carousel = [
 ];
 
 // Header Section
-function signup(){
-    window.location.href = "signup.html";
-}
-function login(){
-    window.location.href = "login.html";
-}
+var loggedInUser = JSON.parse(localStorage.getItem("userName")) || [];
+console.log(loggedInUser);
 
-document.getElementById("cartt").addEventListener("click", gotoLogin);
-document.getElementById("cartt2").addEventListener("click", gotoLogin);
-document.getElementById("credit").addEventListener("click", gotoLogin);
-document.getElementById("credit2").addEventListener("click", gotoLogin);
-function gotoLogin(){
-    alert("Please Sign Up or Log In !");
-    window.location.href = "signup.html";
-}
-
-// var loggedInUser = JSON.parse(localStorage.getItem("userName")) || [];
-// console.log(loggedInUser);
-// if(!loggedInUser.length==0){
-//     document.getElementById("userlogo").style.display="block"
-//     document.getElementById("user").innerText =loggedInUser[0].name;
-//     document.getElementById("signup").style.display = "none";
-//     document.getElementById("login").style.display = "none";
-// }
-
+document.getElementById("user").innerText =loggedInUser[0].name;
 // Carousel Section
 carousel.map(function(element){
     var div = document.createElement("div");
@@ -259,7 +253,6 @@ bestdeal.map(function(element, index){
         div.append(image, p, quantity, price,btn);
         document.getElementById("bestdeal").append(div);
 });
-
 //Fruits Section
 fruits.map(function(element, index){
         var div = document.createElement("div");
@@ -316,14 +309,32 @@ vegetables.map(function(element, index){
 });
 
 var cartProduct = JSON.parse(localStorage.getItem("cart")) || [];
-// var valueCart = [];
+
+// document.getElementById("valueCart").innerText = cartProduct.length;
+
 function addToCart(index){
     var product = bestdeal.filter(function(element, ind){
         return ind == index;
     });
+    // product.piec = 1; //
     cartProduct.push(product[0]);
     localStorage.setItem("cart", JSON.stringify(cartProduct));
 }
+
+// function addToCart(index){
+//     var product = fruits.filter(function(element, ind){
+//         return ind == index;
+//     });
+//     cartProduct.push(product[0]);
+//     localStorage.setItem("cart", JSON.stringify(cartProduct));
+// }
+// function addToCart(index){
+//     var product = vegetables.filter(function(element, ind){
+//         return ind == index;
+//     });
+//     cartProduct.push(product[0]);
+//     localStorage.setItem("cart", JSON.stringify(cartProduct));
+// }
 
 // console.log("okay");
 
@@ -331,6 +342,4 @@ document.getElementById("valueCart").innerText = cartProduct.length;
 function increaseCartValue(){
     document.getElementById("valueCart").innerText = cartProduct.length;
 }
-
-
 

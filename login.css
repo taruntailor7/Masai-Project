@@ -1,8 +1,7 @@
-body{
-    background-color: white;
-    font-family: Rockwell,"Times New Roman",serif;
-  }
-  * {
+    body{
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -13,7 +12,7 @@ body{
       position: absolute;
     }
     
-    .form-box {
+    .form {
       width: 40%;
       height: 100%;
       background: 
@@ -24,7 +23,7 @@ body{
       
     }
     
-    .input-gr {
+    .input {
       margin: 30px auto;
       position: relative;
       margin-left: px;
@@ -45,7 +44,7 @@ body{
     h1{
       font-size: 30px;
       font-weight: 300;
-      font-family: Rockwell,"Times New Roman",serif;
+      /* font-family: Rockwell,"Times New Roman",serif; */
        margin-top: 20px;
        margin-left: 17px;
      
@@ -86,7 +85,13 @@ body{
     p{
       font-size: 19px;
       font-weight: 300;
-      margin-left: 210px;
+      margin-left: 10px;
+    }
+    p>a{
+      text-decoration: none;
+      font-weight: 700;
+      color: #5dc6ad;
+      font-size: 20px;
     }
     .fr {
       height: 80px;

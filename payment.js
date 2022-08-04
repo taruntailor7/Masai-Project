@@ -8,15 +8,23 @@ else{
     // displayProduct();
     cartValue();
 }
+// Header Section
+var loggedInUser = JSON.parse(localStorage.getItem("userName")) || [];
+console.log(loggedInUser);
+
+document.getElementById("user").innerText =loggedInUser[0].name;
 
 // document.querySelector('#cart > h1').innerText = "Cart items:" + cartProduct.length;
 document.getElementById('items').innerText =cartProduct.length+" items";
 document.getElementById('items').style.fontSize="12px";
 
 function cartValue(){
-    var total = cartProduct.reduce(function(accumulator, element) {
-        return accumulator+Number(element.price);
-    },0);
+    // var total = cartProduct.reduce(function(accumulator, element) {
+    //     return accumulator+Number(element.price);
+    // },0);
+
+    var total = localStorage.getItem("total");
+    // console.log(total);
 
     document.getElementById("total").innerText ="₹ "+total;
     document.getElementById("totals").innerText ="₹ "+total;
@@ -49,7 +57,7 @@ function displayEmptyProduct(){
     // div.setAttribute("id", "button");
 
     var a = document.createElement('a');
-    a.setAttribute("href", "index.html");
+    a.setAttribute("href", "homepage.html");
 
     var btn = document.createElement('button');
     btn.innerText = "Let's Shop!";

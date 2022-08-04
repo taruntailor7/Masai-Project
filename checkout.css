@@ -81,15 +81,15 @@ header{
     color:grey;
     margin-top: 15px;
 }
-#container > :last-child > i{
+/* #container > :last-child > i{
     margin-top: 17px;
-}
+} */
 #container > :last-child > p{
     font-size:15px;
     color:grey;
     margin-top: 15px;
     font-family: sans-serif;
-    margin-left: -25px;
+    margin-left: -40px;
 }
 a>i{
     color:grey;
@@ -104,7 +104,7 @@ a>i:hover{
 #container > :last-child > p > a:hover{
     color: black;
 }
-#container > :last-child > button{
+/* #container > :last-child > button{
     border: 1px solid #ccc;
     border-radius:10px;
     height:40px;
@@ -112,7 +112,7 @@ a>i:hover{
     margin-top:3.5px;
     background-color:#5DC6AD;
     color:white;
-}
+} */
 #container > :last-child > i:hover{
     color:black;
 }
@@ -269,6 +269,30 @@ a>i:hover{
     margin-top:55px;
     margin-left:50px;
 }
+/* new css */
+.nameAndQuantityPrice>div:first-child{
+    width:40%;
+}
+.nameAndQuantityPrice>div:nth-child(2){
+    width:20%;
+    display:flex;
+    justify-content: space-around;
+    position: relative;
+}
+.nameAndQuantityPrice>div:nth-child(2)>button{
+    width:25px;
+    height: 35px;
+    margin-top:18px;
+    border: none;
+    border-radius:4px;
+    background-color:#5DC6AD;
+    color: #fff;
+}
+.nameAndQuantityPrice>div:nth-child(2)>p{
+    position: absolute;
+    top: -55px;
+}
+/* End */
 .nameAndQuantityPrice>button{
     width:100px;
     height: 35px;
@@ -316,6 +340,10 @@ td{
     /* font-family:Helvetica Neue, Helvetica, Arial, sans-serif; */
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+/* .item>:first-child>td{
+    font-size:25px;
+    color: black;
+} */
 hr{
     width: 95%;
     margin: auto;
@@ -328,6 +356,10 @@ hr{
     font-size:12px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+/* .Pay>tbody>:first-child>td{
+    font-size:14px;
+    color: black;
+} */
 #checkout{
     width: 100%;
     margin: auto;
