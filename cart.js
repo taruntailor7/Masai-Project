@@ -9,7 +9,7 @@ else{
     cartValue();
 }
 
-document.getElementById("items").innerText = cartProduct.length;
+document.getElementById("ite").innerText = cartProduct.length;
 // document.querySelector('#cart > h1').innerText = "Cart items:" + cartProduct.length;
 document.getElementById('items').innerText =cartProduct.length+" items";
 document.getElementById('items').style.fontSize="12px";
@@ -167,5 +167,14 @@ function increase(index){
     localStorage.setItem("cart",JSON.stringify(cartProduct));
     displayProduct(cartProduct);
 }
+
+// var otp = JSON.parse(localStorage.getItem("orderOtp"));
+// console.log(otp);
+// if(otp == 703865){
+//     cartProduct.length = 0;
+//     localStorage.setItem("cart",JSON.stringify(cartProduct));
+//     // displayProduct(cartProduct);
+//     // displayEmptyProduct();
+// }
 
 // console.log(cartProduct);

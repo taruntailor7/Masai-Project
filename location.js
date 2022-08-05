@@ -116,3 +116,19 @@ function remove(index){
 function refreshPage(){
     window.location.reload();
 }
+
+var btn = document.getElementById("checkout");
+btn.addEventListener("click", address);
+
+function address(){
+    event.preventDefault();
+    var address = document.getElementById("address").value;
+    console.log(address);
+    if(address == ""){
+        alert("Please Enter Your Address !")
+    }
+    else{
+        window.location.href = "payment.html"
+    }
+}
+

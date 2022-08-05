@@ -28,8 +28,8 @@ function cartValue(){
 
     document.getElementById("total").innerText ="₹ "+total;
     document.getElementById("totals").innerText ="₹ "+total;
-    document.getElementById("pay").innerText ="₹ "+total;
-    document.getElementById("check").innerText ="₹ "+total;
+    document.getElementById("pay").innerText ="₹"+total;
+    document.getElementById("check").value ="Pay ₹"+total;
 }
 
 function displayEmptyProduct(){
@@ -115,4 +115,25 @@ function remove(index){
 
 function refreshPage(){
     window.location.reload();
+}
+
+document.getElementById("check").addEventListener("click", goForward);
+
+function goForward(){
+    event.preventDefault();
+    var name = document.getElementById("name").value;
+    var cardNumber = document.getElementById("cardNumber").value;
+    var date  = document.getElementById("date").value;
+    var cvv = document.getElementById("cvv").value;
+    var cardName = document.getElementById("cardName").value;
+    var checkbox = document.getElementById("checkbox").value;
+
+    console.log(name, cvv, cardName, checkbox)
+
+    if(cardNumber == "" || cvv == "" || name == "" || date == "" || cardName == ""){
+        alert("Please Enter All Details!");
+    }
+    else{
+        window.location.href = "otp.html"
+    }
 }

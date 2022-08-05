@@ -262,13 +262,63 @@ a>i:hover{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 #cart>div{
-    width:100%;
+    width:65%;
+    /* padding: 20px; */
     /* border:1px solid red; */
-    display: flex;
+    /* display: flex; */
     /* justify-content:space-between; */
     margin-top: 10px;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* padding: 10px; */
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+}
+#cart>div>form>div{
+    width:70%;
+    display: flex;
+    margin-top: 18px;
+    /* justify-content:space-between; */
+}
+#cart>div>form>div>div>label{
+    color: #9e9796;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#cart>div>form>div>:first-child{
+    width: 70%;
+    /* border: 1px solid blue; */
+}
+#cart>div>form>div>:last-child{
+    width: 30%;
+    /* text-align: end; */
+    /* border: 1px solid blue; */
+}
+#cart>div>form>div>:last-child>input{
+    width: 100%;
+}
+#cart>div>form>input[type="text"],input[type="password"],input[type="tel"]{
+    padding:0px 15px 0px 0px;
+    width:70%;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    outline: none;
+    font-size: 22px;
+    border-bottom:1px solid #ccc;
+}
+
+#cart>div>form>label{
+    margin-top: 18px;
+    color: #9e9796;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#cart>div>form>input[type="submit"]{
+    padding: 12px;
+    border-radius: 10px;
+    width: 70%;
+    margin-top: 15px;
+    background-color:#83c7b9;
+    border:none;
+    color: #fff;
+    font-size: 20px;
 }
 #cart>div>img{
     width: 20%;
@@ -293,7 +343,7 @@ a>i:hover{
 }
 #cartValue{
     width:33%;
-    height:450px;
+    /* height:450px; */
     padding: 10px;
     margin-top:20px;
     border-radius: 5px;

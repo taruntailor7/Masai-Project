@@ -83,12 +83,35 @@
     </div>
     <div class="kart">
         <div id="cart">
-            <h1></h1>
+            <h1>Payments</h1>
+            <div>
+                <form action="">
+                <label for="">Card Holder Name</label><br>
+                <input type="text" value="" name="" id="name" required><br>
+                <label for="">Card Number</label><br>
+                <input type="tel"  value="" name="" id="cardNumber" minLength="16" maxLength="16" required><br>
+                <div>
+                   <div>
+                    <label for="">Expiry (MM/YY)</label><br>
+                    <input type="tel" value="" name="" id="date" minLength="5" maxLength="5" required><br>
+                   </div>
+                    <div>
+                        <label for="">CVV</label><br>
+                        <input type="password" value="" name="" id="cvv" minLength="3" maxLength="3" required><br>
+                    </div>
+                </div>
+                <label for="">Card Name</label><br>
+                <input type="text" name="" value="" id="cardName" required><br>
+                <input type="checkbox" name="" value="" id="checkbox" required>
+                <label for=""> Securly save card details</label><br>
+                <input type="submit" value="Pay" name="" id="check"><br>
+                </form>
+            </div>
             <!-- Append Here -->
         </div>
         <div id="cartValue" >
             <!-- Append Here -->
-            <button>Apply Coupon/Referral</button>
+            <!-- <button>Apply Coupon/Referral</button> -->
             <table>
                 <thead>
                     <tr>
@@ -128,7 +151,7 @@
                     </tr>
                 </tbody>
             </table>
-            <a href="otp.html">
+            <!-- <a href="otp.html">
                 <div id="checkout">
                     <div>
                         <p>Total</p>
@@ -136,7 +159,7 @@
                     </div>
                     <h4>Pay</h4>
                 </div>
-            </a>
+            </a> -->
         </div>
     </div>
     <!-- End -->

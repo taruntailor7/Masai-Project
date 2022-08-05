@@ -10,9 +10,10 @@ function getData() {
     email: document.getElementById("email").value,
     password: document.getElementById("pass").value,
   };
+  console.log(data);
   user.push(data);
   // console.log(user);
   localStorage.setItem("user", JSON.stringify(user));
-  alert("SignUp Succesfully!");
+  alert("Successfully Signed Up !");
   window.location.href = "./login.html";
 }

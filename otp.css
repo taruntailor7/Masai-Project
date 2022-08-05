@@ -268,10 +268,20 @@ a>i:hover{
     /* justify-content:space-between; */
     margin-top: 10px;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+}
+#cart>input{
+    padding:10px;
+    outline:none;
+    border:2px solid #5DC6AD;
+    border-radius:5px;
+}
+#cart>input[type="submit"]{
+    background-color:#5DC6AD;
+    color:#fff;
 }
 #cart>div>img{
-    width: 20%;
+    width: 100%;
 }
 .nameAndQuantityPrice{
     width:75%;
@@ -293,7 +303,7 @@ a>i:hover{
 }
 #cartValue{
     width:33%;
-    height:450px;
+    /* height:450px; */
     padding: 10px;
     margin-top:20px;
     border-radius: 5px;
@@ -351,6 +361,7 @@ hr{
     margin-top: 25px;
     border-radius: 10px;
     color: #fff;
+    display: none;
 }
 #checkout>div>p{
     margin-left: 15px;

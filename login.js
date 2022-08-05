@@ -25,11 +25,11 @@ function login() {
     }
   }
   if(flag){
-    alert("Login Successfull");
+    alert("Successfully Logged In !");
     window.location.href ="./homepage.html";
   } 
   else{
-    alert("Wrong Credentials");
+    alert("Wrong Credentials !");
   }
 
   
