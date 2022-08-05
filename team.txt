@@ -1,5 +1,5 @@
 Team Name = System Zombies.
-
+Project Name = Fraazo Clone.
 Team Members :
 1 - Tarun Tailor (Team Leader)
 2 - Raj Gupta.
