@@ -6,7 +6,7 @@ Our task is that we have to create a pixel perfext clone of the famous vegetable
 
 ## <b>MAKING</b>
 
-Our task is that we have to create a pixel perfext clone of the famous vegetable and fruit delivery website <b>Fraazo</b> with basic functionalities and good looking user interface.
+During our construct week, we were assigned a task to create a pixel-perfect clone of Fraazo’s official website. we are team of five members. After some meetings and discussions, we started working on it and completed all the given tasks in 4 days.
 
 ## <b>DEPLOYED LINK :-</b> https://glowing-gecko-51aa2e.netlify.app/
 
