@@ -13,7 +13,7 @@ function getData() {
   
   var flag = false;
   for(var i=0;i<user.length;i++) {
-    if(data.email === user[i].email || data.mobile === user[i].mobile ){
+    if(data.email === user[i].email){
       flag = true;
       break;
     }
