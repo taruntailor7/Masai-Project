@@ -15,6 +15,9 @@ console.log(loggedInUser);
 document.getElementById("user").innerText =loggedInUser[0].name;
 document.getElementById("greet").innerText ="Thanks "+loggedInUser[0].name;
 
+document.getElementById("showMobile").innerText = loggedInUser[0].mobile;
+
+
 // document.querySelector('#cart > h1').innerText = "Cart items:" + cartProduct.length;
 document.getElementById('items').innerText =cartProduct.length+" items";
 document.getElementById('items').style.fontSize="12px";
@@ -117,3 +120,9 @@ function remove(index){
 function refreshPage(){
     window.location.reload();
 }
+
+document.querySelector(".account>:first-child>:last-child>:last-child").addEventListener("click", gotoHome);
+function gotoHome(){
+    window.location.href = "index.html";
+}
+

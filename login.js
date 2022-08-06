@@ -13,7 +13,8 @@ function login() {
       flag = true;
 
       var userObj = {
-        name:users[i].name,
+        name: users[i].name,
+        mobile: users[i].mobile,
       };
       // console.log(users[i].name);
       // console.log(userObj);

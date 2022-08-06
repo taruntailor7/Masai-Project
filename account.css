@@ -148,6 +148,67 @@ a>i:hover{
 /* Status Section */
 
 /* cart section */
+.account{
+    width: 95%;
+    /* border: 1px solid blue; */
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.account>:first-child{
+    /* border: 1px solid red; */
+    width: 25%;
+    /* height:200px; */
+    background-color: #f9f9f9;
+}
+.account>:first-child>:last-child>div{
+    /* border: 1px solid black; */
+    padding:15px;
+    width: 100%;
+}
+.account>:first-child>:last-child>:first-child{
+    background-color:#fff;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.account>:first-child>:last-child>div>p{
+    margin-top:10px;
+}
+.account>:first-child>:last-child>:last-child>button{
+    color:#e26435;
+    width: 100%;
+    padding:15px;
+    border: none;
+    background: #f9f9f9;
+}
+.account>:first-child>:first-child{
+    text-align: center;
+}
+.account>:first-child>div{
+    /* border: 1px solid blue; */
+    width: 100%;
+}
+
+.account>:first-child>div>img{
+    width: 60%;
+    display: block;
+    margin:auto;
+}
+.account>:last-child{
+    width: 72%;
+}
+.account>:last-child>div{
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding:7px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.account>:last-child>div>h3{
+    margin-left: 16px;
+    margin-top: 8px;
+}
 .kart{
     display: flex;
     width: 95%;
