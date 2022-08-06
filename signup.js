@@ -10,10 +10,25 @@ function getData() {
     email: document.getElementById("email").value,
     password: document.getElementById("pass").value,
   };
-  console.log(data);
-  user.push(data);
-  // console.log(user);
-  localStorage.setItem("user", JSON.stringify(user));
-  alert("Successfully Signed Up !");
-  window.location.href = "./login.html";
+  
+  var flag = false;
+  for(var i=0;i<user.length;i++) {
+    if(data.email === user[i].email || data.mobile === user[i].mobile ){
+      flag = true;
+      break;
+    }
+  }
+
+  if(flag == true){
+    alert("User already exists !");
+  }
+  else{
+    user.push(data);
+    localStorage.setItem("user", JSON.stringify(user));
+    alert("Successfully Signed Up !");
+    window.location.href = "./login.html";
+  }
+
+  // alert("Successfully Signed Up !");
+  // window.location.href = "./login.html";
 }
