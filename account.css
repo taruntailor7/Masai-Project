@@ -534,3 +534,204 @@ hr{
 .fss > h4 + div > :last-child{
     width: 48%;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Header Section */
+    #container > :first-child >a>img{
+        width: 150px;
+        margin-left: -80px;
+    }
+    #container > :first-child > div > i{
+        margin-left:-80px;
+        display:none;
+    }
+    #container > :first-child > div > p{
+        margin-left:-80px;
+        display:none;
+    }
+    #container > :first-child > input[type="text"]{
+        width: 50%;
+        margin-left:-300px;
+    }
+    #container > :first-child > :last-child{
+        /* margin-left:-500px; */
+        display: none;
+    }
+    #cartt{
+        margin-left: -80px;
+        font-size: 22px;
+    }
+    #container > :last-child{
+        position: relative;
+    }
+    #valueCart{
+        position: absolute;
+        left:50px;
+    }
+    #credit{
+        position: absolute;
+        left:-3px;
+        font-size: 22px;
+    }
+    #cartt2,#credit2{
+        display: none;
+    }
+    #container > :last-child  i{
+        margin-left: -20px;
+    }
+    
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    /* Header Section */
+    #container > :first-child >a>img{
+        width: 150px;
+        margin-left: -80px;
+    }
+    #container > :first-child > div > i{
+        display:none;
+    }
+    #container > :first-child > div > p{
+        display:none;
+    }
+    #container > :first-child > input[type="text"]{
+        width: 50%;
+        margin-left:-300px;
+    }
+    #container > :first-child > :last-child{
+        /* margin-left:-500px; */
+        display: none;
+    }
+    #cartt{
+        margin-left: -70px;
+        font-size: 22px;
+    }
+    #container > :last-child{
+        position: relative;
+    }
+    #valueCart{
+        position: absolute;
+        left:28px;
+    }
+    #credit{
+        position: absolute;
+        left:-20px;
+        font-size: 22px;
+    }
+    #cartt2,#credit2{
+        display: none;
+    }
+    #container > :last-child {
+        display:flex;
+        justify-content: space-between;
+    }
+    #container > :last-child i{
+        margin-left: -20px;
+    }
+
+    /* Footer Section */
+    .first{
+        width: 95%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .ff{
+        display:block;
+        width: 100%;
+        /* border: 1px solid red; */
+        display:flex;
+        /* justify-content:space-between; */
+    }
+    .fs{
+        width:100%;
+        display: flex;
+        /* border: 1px solid black; */
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 426px) {
+    /* Header Section */
+    #container > :first-child >a>img{
+        width: 120px;
+        margin-left: -65px;
+    }
+    #container > :first-child > div > i{
+        display:none;
+    }
+    #container > :first-child > div > p{
+        display:none;
+    }
+    #container > :first-child > input[type="text"]{
+        width: 50%;
+        margin-left:-300px;
+        display:none;
+    }
+    #container > :first-child > :last-child{
+        /* margin-left:-500px; */
+        display: none;
+    }
+    #cartt{
+        margin-left: -187px;
+        font-size: 15px;
+    }
+    #container > :last-child{
+        position: relative;
+    }
+    #valueCart{
+        position: absolute;
+        left:158px;
+    }
+    #credit{
+        position: absolute;
+        left:-130px;
+        font-size: 15px;
+        /* display:none; */
+    }
+    #cartt2,#credit2{
+        display: none;
+    }
+    #signup{
+        margin-left: -130px;
+    }
+    #container > :last-child > button{
+        border: 1px solid #ccc;
+        border-radius:10px;
+        height:25px;
+        width:70px;
+        margin-top:3.5px;
+        background-color:#5DC6AD;
+        color:white;
+    }
+    #container > :last-child {
+        display:flex;
+        justify-content: space-between;
+    }
+    #container > :last-child i{
+        margin-left: -150px;
+    }
+    #container > :last-child p{
+        margin-left: -300px;
+    }
+
+    /* Footer Section */
+    .first{
+        width: 95%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .ff{
+        display:block;
+        width: 100%;
+        /* border: 1px solid red; */
+        display:flex;
+        /* justify-content:space-between; */
+    }
+    .fs{
+        width:100%;
+        display: flex;
+        /* border: 1px solid black; */
+    }
+    .second>h1{
+        font-size:17px;
+    }
+}

@@ -375,7 +375,7 @@ h3, hr{
     width: 100%;
     /* border: 1px solid black; */
     margin-top: 10px;
-    display:flex
+    display:flex;
 }
 .appImg{
     width: 50%;
@@ -503,6 +503,7 @@ h3, hr{
     width: 40%;
     margin-top: 26px;
     margin-left: 100px;
+    /* border: 1px solid black; */
 }
 .ffs>ul{
     font-size: 22px;
@@ -522,6 +523,7 @@ h3, hr{
 .fs{
     width:50%;
     display: flex;
+    /* border: 1px solid black; */
 }
 .fsf{
     width: 40%;
@@ -602,3 +604,443 @@ h3, hr{
 .fss > h4 + div > :last-child{
     width: 48%;
 }
+
+/* For 1024px Size */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Header Section */
+    #container > :first-child >a>img{
+        width: 150px;
+        margin-left: -80px;
+    }
+    #container > :first-child > div > i{
+        margin-left:-80px;
+        display:none;
+    }
+    #container > :first-child > div > p{
+        margin-left:-80px;
+        display:none;
+    }
+    #container > :first-child > input[type="text"]{
+        width: 50%;
+        margin-left:-300px;
+    }
+    #container > :first-child > :last-child{
+        /* margin-left:-500px; */
+        display: none;
+    }
+    #cartt{
+        margin-left: -80px;
+        font-size: 22px;
+    }
+    #container > :last-child{
+        position: relative;
+    }
+    #valueCart{
+        position: absolute;
+        left:-25px;
+    }
+    #credit{
+        position: absolute;
+        left:-3px;
+        font-size: 22px;
+    }
+    #cartt2,#credit2{
+        display: none;
+    }
+
+    /* Best Deal Section */
+    #bestdeal > div{
+        position: relative;
+    }
+    #bestdeal > div > button{
+        position: absolute;
+        left:-70px
+    }
+
+    /* Fruites and Vegetables Section */
+    .FandV{
+        width:70%;
+        margin-left: 190px;
+    }
+
+    /* Fruites Section */
+    #fruits > div{
+        position: relative;
+    }
+    #fruits > div > button{
+        position: absolute;
+        left:-70px
+    }
+
+    /* Fruites Section */
+    #vegetables > div{
+        position: relative;
+    }
+    #vegetables > div > button{
+        position: absolute;
+        left:-70px
+    }
+
+    /* Our Application Section */
+    .roundedDiv{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 768px) {
+    /* Header Section */
+    #container > :first-child >a>img{
+        width: 150px;
+        margin-left: -80px;
+    }
+    #container > :first-child > div > i{
+        display:none;
+    }
+    #container > :first-child > div > p{
+        display:none;
+    }
+    #container > :first-child > input[type="text"]{
+        width: 50%;
+        margin-left:-300px;
+    }
+    #container > :first-child > :last-child{
+        /* margin-left:-500px; */
+        display: none;
+    }
+    #cartt{
+        margin-left: -70px;
+        font-size: 22px;
+    }
+    #container > :last-child{
+        position: relative;
+    }
+    #valueCart{
+        position: absolute;
+        left:-25px;
+    }
+    #credit{
+        position: absolute;
+        left:-20px;
+        font-size: 22px;
+    }
+    #cartt2,#credit2{
+        display: none;
+    }
+
+    /* Carousel Section  */
+    .imgs{
+        width: 95%;
+        margin: auto;
+        display:flex;
+        flex-direction: column;
+        /* grid-template-columns: repeat(1,1fr); */
+        /* border: 1px solid green; */
+        /* justify-content: space-between; */
+    }
+    .carou{
+        width: 100%;
+        margin-top: 20px;
+        display:block;
+        /* border: 1px solid blue; */
+        /* position: relative; */
+    }
+    .carousel-indicators{
+        position: absolute;
+        top:300px;
+        display:none;
+    }
+    .banners{
+        width: 100%;
+        margin-top: 20px;
+        /* border: 1px solid red; */
+        align-items:center
+    }
+    /* Best Deal Section */
+    #bestdeal > div{
+        position: relative;
+    }
+    #bestdeal > div > button{
+        position: absolute;
+        left:-30px
+    }
+    #bestdeal {  
+        width:95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        margin-top:30px;
+    }
+    /* Fruites and Vegetables Section */
+    .FandV{
+        width:70%;
+        margin-left: 190px;
+    }
+
+    /* Fruites Section */
+    #fruits > div{
+        position: relative;
+    }
+    #fruits > div > button{
+        position: absolute;
+        left:-30px
+    }
+    #fruits {  
+        width:95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        margin-top:30px;
+    }
+
+    /* Fruites Section */
+    #vegetables > div{
+        position: relative;
+    }
+    #vegetables > div > button{
+        position: absolute;
+        left:-30px
+    }
+    #vegetables{  
+        width:95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        margin-top:30px;
+    }
+
+    /* Our Application Section */
+    .roundedDiv{
+        width: 100%;
+    }
+    .form>input{
+        width: 100%;
+    }
+    .form>button{
+        width: 100%;
+    }
+    .PandA{
+        display: none;
+    }
+
+    /* Footer Section */
+    .first{
+        width: 95%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .ff{
+        display:block;
+        width: 100%;
+        /* border: 1px solid red; */
+        display:flex;
+        /* justify-content:space-between; */
+    }
+    .fs{
+        width:100%;
+        display: flex;
+        /* border: 1px solid black; */
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 426px) {
+    /* Header Section */
+    #container > :first-child >a>img{
+        width: 100px;
+        margin-left: -65px;
+    }
+    #container > :first-child > div > i{
+        display:none;
+    }
+    #container > :first-child > div > p{
+        display:none;
+    }
+    #container > :first-child > input[type="text"]{
+        width: 50%;
+        margin-left:-300px;
+        display:none;
+    }
+    #container > :first-child > :last-child{
+        /* margin-left:-500px; */
+        display: none;
+    }
+    #cartt{
+        margin-left: -187px;
+        font-size: 15px;
+    }
+    #container > :last-child{
+        position: relative;
+    }
+    #valueCart{
+        position: absolute;
+        left:-140px;
+    }
+    #credit{
+        position: absolute;
+        left:-130px;
+        font-size: 15px;
+        /* display:none; */
+    }
+    #cartt2,#credit2{
+        display: none;
+    }
+    #signup{
+        margin-left: -130px;
+    }
+
+    #container > :last-child > button{
+        border: 1px solid #ccc;
+        border-radius:10px;
+        height:25px;
+        width:70px;
+        margin-top:3.5px;
+        background-color:#5DC6AD;
+        color:white;
+    }
+
+     /* Carousel Section  */
+     .imgs{
+        width: 95%;
+        margin: auto;
+        display:flex;
+        flex-direction: column;
+        /* grid-template-columns: repeat(1,1fr); */
+        /* border: 1px solid green; */
+        /* justify-content: space-between; */
+    }
+    .carou{
+        width: 100%;
+        margin-top: 20px;
+        display:block;
+        /* border: 1px solid blue; */
+        /* position: relative; */
+    }
+    .carousel-indicators{
+        position: absolute;
+        top:300px;
+        display:none;
+    }
+    .banners{
+        width: 100%;
+        margin-top: 20px;
+        /* border: 1px solid red; */
+        align-items:center
+    }
+
+    /* Best Deal Section */
+    #bestdeal > div{
+        position: relative;
+    }
+    #bestdeal > div > button{
+        position: absolute;
+        left:-60px
+    }
+    #bestdeal {  
+        width:95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin-top:30px;
+    }
+    /* Fruites and Vegetables Section */
+    .FandV{
+        width:100%;
+        margin-left: 20px;
+    }
+
+    /* Fruites Section */
+    #fruits > div{
+        position: relative;
+    }
+    #fruits > div > button{
+        position: absolute;
+        left:-60px
+    }
+    #fruits {  
+        width:95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin-top:30px;
+    }
+
+    /* Fruites Section */
+    #vegetables > div{
+        position: relative;
+    }
+    #vegetables > div > button{
+        position: absolute;
+        left:-60px
+    }
+    #vegetables{  
+        width:95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin-top:30px;
+    }
+
+    /* Our Application Section */
+    .roundedDiv{
+        width: 100%;
+    }
+    .form>input{
+        width: 100%;
+    }
+    .form>button{
+        width: 100%;
+    }
+    .PandA{
+        display: none;
+    }
+
+    /* Our Application Sectoin  */
+    .application{
+        width: 100%;
+        /* border: 1px solid black; */
+        margin-top: 10px;
+        /* display:flex; */
+        display:grid;
+        grid-template-columns: (1.1fr);
+    }
+    .appImg{
+        width: 100%;
+        /* border: 1px solid red; */
+        /* display: flex; */
+    }
+    .downloadApp{
+        width: 100%;
+        margin-bottom: 20px;
+        /* border: 1px solid blue; */
+    }
+    .download>h1{
+        font-size: 35px;
+    }
+    /* Footer Section */
+    .first{
+        width: 95%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .ff{
+        display:block;
+        width: 100%;
+        /* border: 1px solid red; */
+        display:flex;
+        /* justify-content:space-between; */
+    }
+    .fs{
+        width:100%;
+        display: flex;
+        /* border: 1px solid black; */
+    }
+    .second>h1{
+        font-size:17px;
+    }
+}
+
