@@ -25,7 +25,7 @@ Our task is that we have to create a pixel perfext clone of the famous vegetable
 
 During our construct week, we were assigned a task to create a pixel-perfect clone of Fraazo’s official website. we are team of five members. After some meetings and discussions, we started working on it and completed all the given tasks in 4 days.
 
-## <b>DEPLOYED LINK :-</b> https://timely-pithivier-a63597.netlify.app/
+## <b>DEPLOYED LINK :-</b> https://clone-fraazo.netlify.app/
 
 <br>
 
