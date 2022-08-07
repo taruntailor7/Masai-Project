@@ -105,6 +105,7 @@ function displayProduct(prod){
         div1.append(p,quantity,price);
 
         var btnDiv = document.createElement("div");
+        btnDiv.setAttribute("class", "btnDiv");
         btnDiv.width = "100%"
         // btnDiv.style.border = "1px solid black"
 
@@ -127,7 +128,7 @@ function displayProduct(prod){
                 refreshPage();
             });
 
-        btnDiv.append(minus, pieces, plus,);
+        btnDiv.append(minus, pieces, plus);
 
         var btn = document.createElement("button");
         btn.innerText = "Remove";

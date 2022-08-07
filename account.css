@@ -628,7 +628,19 @@ hr{
     #container > :last-child i{
         margin-left: -20px;
     }
-
+    /* Cart Section */
+    .account>:first-child>:last-child>:first-child{
+        padding:5px;
+    }
+    .account>:last-child>h2{
+        font-size:20px;
+    }
+    .account>:last-child>div>h3{
+        font-size:15px;
+    }
+    .account>:last-child>h1{
+        font-size:30px;
+    }
     /* Footer Section */
     .first{
         width: 95%;
@@ -711,6 +723,20 @@ hr{
     }
     #container > :last-child p{
         margin-left: -300px;
+    }
+
+    /* Cart Section */
+    .account>:first-child>:last-child>:first-child{
+        padding:1px;
+    }
+    .account>:last-child>h2{
+        font-size:17px;
+    }
+    .account>:last-child>div>h3{
+        font-size:13px;
+    }
+    .account>:last-child>h1{
+        font-size:20px;
     }
 
     /* Footer Section */

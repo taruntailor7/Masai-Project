@@ -256,7 +256,8 @@ a>i:hover{
     padding:0px 20px 20px 20px;
     margin-top:20px;
     border-radius: 5px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 #cart>h1{
     font-size: 25px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -605,6 +606,19 @@ hr{
     #container > :last-child  i{
         margin-left: -20px;
     }
+
+    /* Status Section  */
+    #cartOnly{
+        width: 45%;
+    }
+    #cartOnly>div{
+        border-radius: 50%;
+        /* padding: 5px; */
+    }
+    #cartOnly>div>i{
+        font-size: 20px;
+    }
+
     
 }
 
@@ -653,6 +667,34 @@ hr{
     }
     #container > :last-child i{
         margin-left: -20px;
+    }
+     /* Status Section  */
+     #cartOnly{
+        width: 50%;
+    }
+    #cartOnly>div{
+        border-radius: 50%;
+        /* padding: 3px; */
+    }
+    #cartOnly>div>i{
+        font-size: 20px;
+    }
+     /* Cart Section  */
+    .kart{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    #cart{
+        width: 100%;
+    }
+    #cartValue{
+        width: 100%;
+    }
+    #cart>div{
+        width: 100%;
     }
 
     /* Footer Section */
@@ -737,6 +779,36 @@ hr{
     }
     #container > :last-child p{
         margin-left: -300px;
+    }
+
+    /* Status Section  */
+    #cartOnly{
+        width: 80%;
+    }
+    #cartOnly>div{
+        border-radius: 50%;
+        /* padding: 3px; */
+    }
+    #cartOnly>div>i{
+        font-size: 20px;
+    }
+
+    /* Cart Section  */
+    .kart{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    #cart{
+        width: 100%;
+    }
+    #cartValue{
+        width: 100%;
+    }
+    #cart>div{
+        width: 100%;
     }
 
     /* Footer Section */

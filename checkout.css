@@ -574,7 +574,17 @@ hr{
     #container > :last-child  i{
         margin-left: -20px;
     }
-    
+    /* Status Section  */
+    #cartOnly{
+        width: 45%;
+    }
+    #cartOnly>div{
+        border-radius: 50%;
+        /* padding: 5px; */
+    }
+    #cartOnly>div>i{
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
@@ -622,6 +632,36 @@ hr{
     }
     #container > :last-child i{
         margin-left: -20px;
+    }
+
+    /* Status Section  */
+    #cartOnly{
+        width: 50%;
+    }
+    #cartOnly>div{
+        border-radius: 50%;
+        /* padding: 3px; */
+    }
+    #cartOnly>div>i{
+        font-size: 20px;
+    }
+
+    /* Cart Section  */
+    .kart{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    #cart{
+        width: 100%;
+    }
+    #cartValue{
+        width: 100%;
+    }
+    #cart>div{
+        width: 100%;
     }
 
     /* Footer Section */
@@ -708,6 +748,57 @@ hr{
         margin-left: -300px;
     }
 
+    /* Status Section  */
+    #cartOnly{
+        width: 80%;
+    }
+    #cartOnly>div{
+        border-radius: 50%;
+        /* padding: 3px; */
+    }
+    #cartOnly>div>i{
+        font-size: 20px;
+    }
+
+    /* Cart Section  */
+    .kart{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    #cart{
+        width: 100%;
+    }
+    #cartValue{
+        width: 100%;
+    }
+    #cart>div{
+        width: 100%;
+    }
+    .nameAndQuantityPrice{
+        width: 100%;
+        font-size: 11px;
+        margin-top: -45px;
+        display:flex;
+        /* justify-content:space-around; */
+    }
+    .nameAndQuantityPrice>:first-child>p,h4{
+        margin-left: -40px;
+    }
+    .nameAndQuantityPrice>:nth-child(2)>:first-child{
+        margin-left: -70px;
+    }
+    .nameAndQuantityPrice>:nth-child(2)>p{
+        margin-left: -70px; 
+    }
+    .nameAndQuantityPrice>:nth-child(2)>:last-child{
+        margin-left: -30px; 
+    }
+    .nameAndQuantityPrice>:last-child>{
+        width: 20%;
+    }
     /* Footer Section */
     .first{
         width: 95%;
