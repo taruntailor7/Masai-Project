@@ -4,11 +4,28 @@
 
 Our task is that we have to create a pixel perfext clone of the famous vegetable and fruit delivery website <b>Fraazo</b> with basic functionalities and good looking user interface.
 
+# <b>Functionalities</b>
+
+<li><b>Users can register themselves.</b></li>
+<li><b>Users can login by entering their credentials and explore our website.</b></li>
+<li><b>If users do not register....</b></li>
+<div><ul><b>1. They can not access in our website.</b></ul>
+<ul><b>2. They can see homepage only.</b><ul></div>
+
+<li><b>When user add any item they can see that item in cart page and also get a pop up "Item added succesfully".</b></li>
+<li><b>In cart page you can add quantity of that item, like if you want 2 bananas so you can add quantity in cart page.</b></li>
+<li><b>In cart page on right hand you can see billing of your item.</b></li>
+<li><b>After clicking on checkout you get redirected on location page where you have to enter your address.</b></li>
+<li><b>After entering your address you get redirected on payment page.</b></li>
+<li><b>In payment page you have to enter your card details.</b></li>
+<li><b>After clicking on pay you get redirected on Thank You page, Where you can see "Thank you <b>Your Name</b>" </b></li>
+<li><b>The main functionality of our website is that it is fully responsive for Mobile, Laptop and Tab also.</b></li>
+
 ## <b>MAKING</b>
 
 During our construct week, we were assigned a task to create a pixel-perfect clone of Fraazo’s official website. we are team of five members. After some meetings and discussions, we started working on it and completed all the given tasks in 4 days.
 
-## <b>DEPLOYED LINK :-</b> https://glowing-gecko-51aa2e.netlify.app/
+## <b>DEPLOYED LINK :-</b> https://timely-pithivier-a63597.netlify.app/
 
 <br>
 
@@ -97,6 +114,8 @@ During our construct week, we were assigned a task to create a pixel-perfect clo
  <img class="Image" src="IMAGE\Screenshot (646).png" alt="Image">
 
  <br>
+
+## <li><b>Responsive Design<b></li>
 
 ## <b>Thank You For Exploring !</b>
 
