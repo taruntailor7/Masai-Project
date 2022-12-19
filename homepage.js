@@ -1,7 +1,7 @@
 var fruits = [
     {
         id: '1',
-        image_url: "https://imagemaster.fraazo.com/fraazo-master/products/FAVO21.png?width=256&height=256&format=webp",
+        image_url: "https://m.media-amazon.com/images/I/8124jPI4bKL._SX679_.jpg",
         name: "Indian Avocado",
         quantity: "1 pc",
         price: "89",
@@ -9,7 +9,7 @@ var fruits = [
     },
     {
         id: '2',
-        image_url: "https://imagemaster.fraazo.com/fraazo-master/products/FBAN14.png?width=256&height=256&format=webp",
+        image_url: "https://m.media-amazon.com/images/I/413Q+GBBZWL.jpg",
         name: "Robusta Bnana",
         quantity: "1 Kg",
         price: "47",
@@ -17,7 +17,7 @@ var fruits = [
     },
     {
         id: '3',
-        image_url: "https://imagemaster.fraazo.com/fraazo-master/products/VPAP12.png?width=256&height=256&format=webp",
+        image_url: "https://www.jiomart.com/images/product/600x600/590000508/raw-papaya-500-g-product-images-o590000508-p590000508-0-202207291755.jpg",
         name: "Raw Papaya",
         quantity: "1 pc",
         price: "32",
@@ -25,7 +25,7 @@ var fruits = [
     },
     {
         id: '4',
-        image_url: "https://imageprod.fraazo.com/fraazo-prod/products/product_images/000/000/157/original/data?width=256&height=256&format=webp",
+        image_url: "https://www.jiomart.com/images/product/original/590000070/pineapple-queen-1-pc-approx-700-g-1200-g-product-images-o590000070-p590000070-0-202203170357.jpg",
         name: "pineapple",
         quantity: "1 pc",
         price: "62",
@@ -33,7 +33,7 @@ var fruits = [
     },
     {
         id: '5',
-        image_url: "https://imageprod.fraazo.com/fraazo-prod/products/product_images/000/000/261/original/data?width=256&height=256&format=webp",
+        image_url: "https://images.healthshots.com/healthshots/en/uploads/2021/09/27184641/pomegranate-1600x900.jpg",
         name: "Pomegranate (Anar)",
         quantity: "1 kg",
         price: "120",
@@ -79,7 +79,7 @@ var fruits = [
 var vegetables = [
     {
         id: '1',
-        image_url: "https://imageprod.fraazo.com/fraazo-prod/images/images/000/006/605/original/data?width=256&height=256",
+        image_url: "https://m.economictimes.com/thumb/msid-95423731,width-1200,height-900,resizemode-4,imgsize-56196/tomatoes-canva.jpg",
         name: "Tomato",
         quantity: "1 kg",
         price: "35",
@@ -87,7 +87,7 @@ var vegetables = [
     },
     {
         id: '2',
-        image_url: "https://imagemaster.fraazo.com/fraazo-master/products/VARB12.png?width=256&height=256",
+        image_url: "https://images.hindustantimes.com/img/2021/11/15/1600x900/taro_root_thumb_1636958292113_1636958301570.jpg",
         name: "Arbi",
         quantity: "500 g",
         price: "37",
@@ -95,7 +95,7 @@ var vegetables = [
     },
     {
         id: '3',
-        image_url: "https://imageprod.fraazo.com/fraazo-prod/images/images/000/009/241/original/data?width=256&height=256",
+        image_url: "https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/article_images/2015/09/04/499124.gif?itok=MYn4E3K6",
         name: "Bnana Stem",
         quantity: "1 pc",
         price: "41",
@@ -103,7 +103,7 @@ var vegetables = [
     },
     {
         id: '4',
-        image_url: "https://imagemaster.fraazo.com/fraazo-master/products/BONI11.png?width=256&height=256",
+        image_url: "https://www.jiomart.com/images/product/600x600/590002136/onion-5-kg-pack-product-images-o590002136-p590002136-0-202203141906.jpg",
         name: "Onion",
         quantity: "1 kg",
         price: "26",
@@ -111,7 +111,7 @@ var vegetables = [
     },
     {
         id: '5',
-        image_url: "https://imageprod.fraazo.com/fraazo-prod/products/product_images/000/000/012/original/data?width=256&height=256",
+        image_url: "https://m.media-amazon.com/images/I/61yXL70-RaL._SX679_.jpg",
         name: "Potato",
         quantity: "1 kg",
         price: "25",
@@ -157,7 +157,7 @@ var vegetables = [
 var bestdeal = [
     {
         id: '1',
-        image_url: "https://imagemaster.fraazo.com/fraazo-master/products/FAVO21.png?width=256&height=256&format=webp",
+        image_url: "https://m.media-amazon.com/images/I/61THuQWrAZL._SL1200_.jpg",
         name: "Coconut Combo (2 pcs Coconuts)",
         quantity: "1 combo",
         price: "60",
@@ -165,7 +165,7 @@ var bestdeal = [
     },
     {
         id: '2',
-        image_url: "https://imagemaster.fraazo.com/fraazo-master/products/VCAB12.png?width=256&height=256",
+        image_url: "https://www.bhg.com/thmb/5cz7VLOcihn4-htu6tJUVmd_FtY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/HGL100647-773e4b92753344f2b4c89f551de5d87b.jpg",
         name: "Cabbage",
         quantity: "1 pc",
         price: "41",
@@ -173,7 +173,7 @@ var bestdeal = [
     },
     {
         id: '3',
-        image_url: "https://imagemaster.fraazo.com/fraazo-master/products/VPAP12.png?width=256&height=256&format=webp",
+        image_url: "https://www.jiomart.com/images/product/600x600/590000508/raw-papaya-500-g-product-images-o590000508-p590000508-0-202207291755.jpg",
         name: "Raw Papaya",
         quantity: "1 pc",
         price: "32",
@@ -181,7 +181,7 @@ var bestdeal = [
     },
     {
         id: '4',
-        image_url: "https://imagemaster.fraazo.com/fraazo-master/products/VBRI22.png?width=256&height=256",
+        image_url: "https://khalihaan.s3.ap-south-1.amazonaws.com/product/3517/uhoiFaGmOytLdmqx4Rahl81KmEasSUiHdfyknfYE.png",
         name: "Black Nagpur Brinjal",
         quantity: "250 g",
         price: "40",
@@ -189,7 +189,7 @@ var bestdeal = [
     },
     {
         id: '5',
-        image_url: "https://imagemaster.fraazo.com/fraazo-master/products/VCAP12.png?width=256&height=256",
+        image_url: "https://www.jiomart.com/images/product/original/590003662/green-capsicum-500-g-product-images-o590003662-p590003662-0-202203151617.jpg",
         name: "Green Capsicum",
         quantity: "250 g",
         price: "32",
@@ -199,13 +199,13 @@ var bestdeal = [
 
 var carousel = [
     {
-        image_url : "https://imageprod.fraazo.com/fraazo-prod/web_ban/5609.png"
+        image_url : "https://bhajibazar.com/wp-content/uploads/2018/08/slider1.jpg"
     },
     {
-        image_url : "https://imageprod.fraazo.com/fraazo-prod/web_ban/4986.png"
+        image_url : "https://www.finefruitscatering.co.uk/Images/fresh-fruit-veg-banner.png"
     },
     {
-        image_url : "https://imageprod.fraazo.com/fraazo-prod/web_ban/4985.png"
+        image_url : "https://www.grocistore.com/admin/uploads/banners/web_banners/banner1576516931.JPG"
     },
 ];
 
