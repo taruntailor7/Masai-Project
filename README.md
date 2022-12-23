@@ -50,12 +50,9 @@ During our construct week, we were assigned a task to create a pixel-perfect clo
 <br>
 
 ## <li><b>HOMEPAGE<b></li>
+ 
+ ![image](https://user-images.githubusercontent.com/66818449/209324727-5608fe07-82ad-402c-b60a-9e34c70f6a72.png)
 
-<br>
-
- <img class="Image" src="IMAGE\Screenshot (638).png" alt="Image">
-
- <br>
 
 ## <li><b>PRODUCT PAGE<b></li>
 
