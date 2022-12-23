@@ -56,61 +56,25 @@ During our construct week, we were assigned a task to create a pixel-perfect clo
 
 ## <li><b>PRODUCT PAGE<b></li>
 
-<br>
-<img class="Image" src="IMAGE\Screenshot (639).png" alt="Image">
+ ![image](https://user-images.githubusercontent.com/66818449/209328112-c3f424d8-c3ba-4a95-bd08-1700112b25f2.png)
 
- <br>
 
 ## <li><b>FOOTER PAGE<b></li>
 
-<br>
-<img class="Image" src="IMAGE\Screenshot (640).png" alt="Image">
+ ![image](https://user-images.githubusercontent.com/66818449/209328211-31098c5a-30b7-46dd-97f3-513961e546ed.png)
 
- <br>
+ ![image](https://user-images.githubusercontent.com/66818449/209328163-ecbe6134-eea6-4141-b5a0-5de26e9ccd8c.png)
 
- <img class="Image" src="IMAGE\Screenshot (641).png" alt="Image">
-
- <br>
 
 ## <li><b>SIGNUP PAGE<b></li>
+ 
+ ![image](https://user-images.githubusercontent.com/66818449/209328252-53a0bf2a-b7b2-437d-a198-8bb6b965300d.png)
 
-<br>
-
- <img class="Image" src="IMAGE\Screenshot (642).png" alt="Image">
-
- <br>
 
 ## <li><b>LOGIN PAGE<b></li>
+ 
+ ![image](https://user-images.githubusercontent.com/66818449/209328267-6d937cfe-3a5e-45cd-a130-c985a9b00e07.png)
 
-<br>
-
- <img class="Image" src="IMAGE\Screenshot (643).png" alt="Image">
-
- <br>
-
-## <li><b>EMPTY CART<b></li>
-
-<br>
-
- <img class="Image" src="IMAGE\Screenshot (644).png" alt="Image">
-
- <br>
-
-## <li><b>PRODUCT CART<b></li>
-
-<br>
-
- <img class="Image" src="IMAGE\Screenshot (645).png" alt="Image">
-
- <br>
-
-## <li><b>PAYMENT PAGE<b></li>
-
-<br>
-
- <img class="Image" src="IMAGE\Screenshot (646).png" alt="Image">
-
- <br>
 
 ## <li><b>Responsive Design<b></li>
 
